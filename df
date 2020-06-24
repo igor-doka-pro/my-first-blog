@@ -1,0 +1,17 @@
+* [33mcommit 1d977e603fe41294c9cba0aa2144502f07ca170e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+[31m|[m Author: igor.doka.pro <igor.doka.pro@yandex.ru>
+[31m|[m Date:   Wed Jun 24 14:04:19 2020 +0300
+[31m|[m 
+[31m|[m     Changed the HTML for the site.
+[31m|[m 
+* [33mcommit 7b46aa7c429daf89e112029e8b1b692b154e287f[m
+[31m|[m Author: igor.doka.pro <igor.doka.pro@yandex.ru>
+[31m|[m Date:   Wed Jun 24 13:23:04 2020 +0300
+[31m|[m 
+[31m|[m     Changed the HTML for the site
+[31m|[m 
+* [33mcommit 77ca418cf8a8e5a6268cd8431e7732a2971e8db0[m
+  Author: igor.doka.pro <igor.doka.pro@yandex.ru>
+  Date:   Mon Jun 22 19:41:10 2020 +0300
+  
+      My Django Girls app, first commit

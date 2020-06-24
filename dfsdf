@@ -1,0 +1,39 @@
+[33mcommit 1d977e603fe41294c9cba0aa2144502f07ca170e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: igor.doka.pro <igor.doka.pro@yandex.ru>
+Date:   Wed Jun 24 14:04:19 2020 +0300
+
+    Changed the HTML for the site.
+
+[1mdiff --git a/blog/apps.py b/blog/apps.py[m
+[1mindex 7930587..57e485d 100644[m
+[1m--- a/blog/apps.py[m
+[1m+++ b/blog/apps.py[m
+[36m@@ -2,4 +2,4 @@[m [mfrom django.apps import AppConfig[m
+ [m
+ [m
+ class BlogConfig(AppConfig):[m
+[31m-    name = 'blog'[m
+[32m+[m[32m    name = 'blog'[m
+\ No newline at end of file[m
+[1mdiff --git a/blog/urls.py b/blog/urls.py[m
+[1mindex 8355449..84a018a 100644[m
+[1m--- a/blog/urls.py[m
+[1m+++ b/blog/urls.py[m
+[36m@@ -3,4 +3,4 @@[m [mfrom . import views[m
+ [m
+ urlpatterns= [[m
+ 	path('', views.post_list, name='post_list'),[m
+[31m-][m
+\ No newline at end of file[m
+[32m+[m[32m][m
+[1mdiff --git a/mysite/wsgi.py b/mysite/wsgi.py[m
+[1mindex 45e28c9..b45c085 100644[m
+[1m--- a/mysite/wsgi.py[m
+[1m+++ b/mysite/wsgi.py[m
+[36m@@ -13,4 +13,4 @@[m [mfrom django.core.wsgi import get_wsgi_application[m
+ [m
+ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')[m
+ [m
+[31m-application = get_wsgi_application()[m
+[32m+[m[32mapplication = get_wsgi_application()[m
+\ No newline at end of file[m
